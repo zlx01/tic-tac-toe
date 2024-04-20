@@ -1,5 +1,5 @@
 <template>
-  <button class="square">
+  <button class="square" @click="$emit('click')">
     {{ value }}
   </button>
 </template>
@@ -8,6 +8,7 @@
 defineProps({
   value: String,
 });
+defineEmits(["click"]);
 </script>
 
 <style scoped></style>

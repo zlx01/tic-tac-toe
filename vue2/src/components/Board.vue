@@ -2,19 +2,19 @@
   <div>
     <div class="status">{{ status }}</div>
     <div class="board-row">
-      <Square :value="squares[0]" @click.native="handleClick(0)" />
-      <Square :value="squares[1]" @click.native="handleClick(1)" />
-      <Square :value="squares[2]" @click.native="handleClick(2)" />
+      <Square :value="squares[0]" @click="handleClick(0)" />
+      <Square :value="squares[1]" @click="handleClick(1)" />
+      <Square :value="squares[2]" @click="handleClick(2)" />
     </div>
     <div class="board-row">
-      <Square :value="squares[3]" @click.native="handleClick(3)" />
-      <Square :value="squares[4]" @click.native="handleClick(4)" />
-      <Square :value="squares[5]" @click.native="handleClick(5)" />
+      <Square :value="squares[3]" @click="handleClick(3)" />
+      <Square :value="squares[4]" @click="handleClick(4)" />
+      <Square :value="squares[5]" @click="handleClick(5)" />
     </div>
     <div class="board-row">
-      <Square :value="squares[6]" @click.native="handleClick(6)" />
-      <Square :value="squares[7]" @click.native="handleClick(7)" />
-      <Square :value="squares[8]" @click.native="handleClick(8)" />
+      <Square :value="squares[6]" @click="handleClick(6)" />
+      <Square :value="squares[7]" @click="handleClick(7)" />
+      <Square :value="squares[8]" @click="handleClick(8)" />
     </div>
   </div>
 </template>
